@@ -1,17 +1,17 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : localhost_3306
+ Source Server         : mysql
  Source Server Type    : MySQL
- Source Server Version : 80024 (8.0.24)
+ Source Server Version : 80024
  Source Host           : localhost:3306
- Source Schema         : xs_jdbc
+ Source Schema         : star_jdbc
 
  Target Server Type    : MySQL
- Target Server Version : 80024 (8.0.24)
+ Target Server Version : 80024
  File Encoding         : 65001
 
- Date: 15/10/2023 08:23:18
+ Date: 03/11/2023 08:44:46
 */
 
 SET NAMES utf8mb4;
@@ -46,7 +46,7 @@ CREATE TABLE `tb_customer`  (
   `age` int NULL DEFAULT NULL COMMENT '年龄',
   `address` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '地址',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '客户表' ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '客户表' ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of tb_customer
